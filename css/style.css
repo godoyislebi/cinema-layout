@@ -32,8 +32,6 @@ body{
 	margin-top: 30px;
 	position: relative;
 	left:60px;
-	font-size: 
-	
 }
 .titulo{
 	font-size: 40px;
@@ -65,19 +63,51 @@ body{
 	right: 30px 
 }
 .trailer, .ticket{
-	width: 190px;
-	height: 50px;
+	width: 150px;
+	height: 70px;
 	padding: 15px 25px;
 	border-radius: 10px;
-	margin: 20px 0px;
+	margin-top: 10px;
 	background: orange;
+	margin-left:20px;
 }
-.banner a, .bajo a{
+.banner a, .bajo a, .ticket{
 	text-decoration: none;
 	color:white;
 }
+.bajo h4, .parrafos p{
+	color:gray;
+}
+.bajo h4,h2,p{
+	margin:20px;
+}
+.bajo a, .ticket,.bajo p, .footer p{
+	font-size: 11px;
+}
+.bajo p{
+	margin-bottom: 40px;
+	color:orange;
+}
+.bajo h3{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.parrafos h4, .parrafos p {
+	color:inherit;
+	margin:auto;
+	
+}
+.parrafos p, .footer p, .footer h5{
+	color:gray;
+}
+hr{
+	margin-bottom:25px; 
+	margin-top:25px; 
+}
+
 .footer{
-	background: gray;
+	background: #d3d3d3;
 	width: 100%;
+	margin-top: 40px;
 }
 
